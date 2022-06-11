@@ -3,7 +3,8 @@ public class Main {
         // instansiasi
         Persegi persegi = new Persegi(8);
         System.out.println(persegi);
-
+        PersegiPanjang persegiPanjang = new PersegiPanjang(5, 10);
+        System.out.println(persegiPanjang);
 
         // persegi.setSisi(5);
         // System.out.println("Keliling : " + persegi.hitungKeliling());
